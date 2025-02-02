@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA);
+    font-family: 'Saira';
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+button {
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.radio-button {
+    accent-color: #10B981; 
+}
+
+li {
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.edit-button{
+    background: #38B2AC;
+}
+
+.edit-button:hover{
+    background: #4FD1C5;
+}
+
